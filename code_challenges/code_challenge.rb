@@ -13,3 +13,13 @@ elsif good_driving_record == true || age > 25
 else 
     puts "You are not eligible to rent this car. Please have an eligible signee sign for this rental."
 end
+
+# Write a Ruby program that defines a variable that stores an Integer. The program should print out the String "even" if the Integer is even, and the String "odd" if the Integer is odd.
+
+number = 21
+
+if number.even?
+    puts "even"
+else 
+    puts "odd"
+end
