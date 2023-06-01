@@ -65,4 +65,14 @@ end
 # to make sure all above conditions output what you expect.
 
 cups_of_flour = 1
-has_sauce = true
+has_sauce = false
+
+if cups_of_flour >= 2 && has_sauce == true
+  puts "I can make pizza!"
+elsif cups_of_flour < 2 && has_sauce == true
+  puts "I need more flour!"
+elsif cups_of_flour < 2 && has_sauce == false
+  puts "Time to go to the store! I need flour and sauce"
+else 
+  puts "I cannot make pizza:("
+end
